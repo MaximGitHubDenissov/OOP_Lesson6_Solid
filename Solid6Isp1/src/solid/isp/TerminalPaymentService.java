@@ -1,6 +1,6 @@
 package solid.isp;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+// import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 public class TerminalPaymentService implements Payable {
 
@@ -16,6 +16,6 @@ public class TerminalPaymentService implements Payable {
 
     @Override
     public void payPhoneNumber(int amount) {
-        throw new NotImplementedException();
+        // throw new NotImplementedException();
     }
 }
